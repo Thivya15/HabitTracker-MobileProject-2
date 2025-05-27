@@ -32,7 +32,10 @@ const HomeScreen: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/logo.png') as ImageSourcePropType} style={styles.logo} />
+      <View style={styles.logoText}>
+        <Image source={require('../assets/logo.png') as ImageSourcePropType} style={styles.logo} />
+        <Text style={styles.text}>Habit Tracker</Text>
+      </View>
       <Image source={require('../assets/blueImg.png') as ImageSourcePropType} style={styles.bannerImage} />
       <Text style={styles.title1}>
         Build <Text style={styles.title2}>Good Habits,</Text>
@@ -80,10 +83,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  logoText:{
+    flexDirection: 'row',
+  },
   logo: {
     width: 54,
     height: 56,
     marginBottom: 50,
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start'
+  },
+  text:{
+    fontSize: 30,
+    color: Colors.secondary,
   },
   bannerImage: {
     width: 356,

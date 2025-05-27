@@ -19,7 +19,7 @@ const AddHabits = () => {
         if (!addHabit || !frequency) return;
 
         const newHabit = {
-            id: Date.now().toString(), // ✅ unique ID
+            id: Date.now().toString(), 
             title: addHabit,
             frequency,
             completed: false,

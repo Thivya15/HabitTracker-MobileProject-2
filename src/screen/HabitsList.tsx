@@ -22,6 +22,8 @@ type Habit = {
 
 type RootStackParamList = {
   ADD_HABITS: undefined;
+  PROGRESS: undefined;
+  LOGOUT: undefined;
 };
 
 const HabitsList = () => {
@@ -42,15 +44,12 @@ const HabitsList = () => {
 
   const filterHabits = () => {
     let filtered = [...habits];
-
     if (selected !== 'all') {
       filtered = filtered.filter(h => h.frequency === selected);
     }
-
     if (showIncompleteOnly) {
       filtered = filtered.filter(h => !h.completed);
     }
-
     return filtered;
   };
 
@@ -90,14 +89,36 @@ const HabitsList = () => {
     navigation.navigate('ADD_HABITS');
   };
 
+  const handleLogout = () => {
+    navigation.navigate('LOGOUT');
+  };
+
+  const handleViewProgress = () => {
+    navigation.navigate('PROGRESS');
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.buttons}>
         <Text style={styles.addButton}>Add Habits</Text>
         <TouchableOpacity onPress={handleAddHabit}>
           <Image
-            style={styles.plusButton}
+            style={styles.iconButton}
             source={require('../assets/Add.png')}
+          />
+        </TouchableOpacity>
+
+        {/* 👇 Progress Navigation Button */}
+        <TouchableOpacity onPress={handleViewProgress}>
+          <Image
+            style={styles.iconButton}
+            source={require('../assets/InProgress.png')} 
+          />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={handleLogout}>
+          <Image
+            style={styles.iconButton}
+            source={require('../assets/Logout.png')} 
           />
         </TouchableOpacity>
       </View>
@@ -154,17 +175,18 @@ const styles = StyleSheet.create({
   buttons: {
     flexDirection: 'row',
     marginTop: 60,
+    alignItems: 'center',
   },
   addButton: {
-    marginBottom: 10,
     color: Colors.white,
     marginLeft: 15,
     fontSize: 24,
+    flex: 1,
   },
-  plusButton: {
+  iconButton: {
     width: 32,
     height: 32,
-    marginLeft: 10,
+    marginHorizontal: 10,
   },
   tabsContainer: {
     marginTop: 10,

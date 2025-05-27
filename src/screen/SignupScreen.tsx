@@ -17,7 +17,7 @@ const SignupScreen: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLOGIN = () => {
+  const handleLogin = () => {
     navigation.navigate('LOGIN');
   };
 
@@ -95,7 +95,7 @@ const SignupScreen: React.FC = () => {
         </TouchableOpacity>
       </View>
       <Text style={styles.text}>Already have an account!
-        <TouchableOpacity onPress={handleSignup}>
+        <TouchableOpacity onPress={handleLogin}>
           <Text style={styles.linkText}> Login</Text>
         </TouchableOpacity>
       </Text>

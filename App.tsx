@@ -7,6 +7,8 @@ import LoginScreen from './src/screen/LoginScreen';
 import SignupScreen from './src/screen/SignupScreen';
 import AddHabits from './src/screen/AddHabits';
 import HabitsList from './src/screen/HabitsList';
+import ProgressScreen from './src/screen/ProgressScreen';
+import LogoutScreen from './src/screen/LogoutScreen';
 
 
 const Stack = createNativeStackNavigator();
@@ -20,6 +22,8 @@ const App = () => {
         <Stack.Screen name="SIGNUP" component={SignupScreen}/>
         <Stack.Screen name="ADD_HABITS" component={AddHabits}/>
         <Stack.Screen name="HABITSLIST" component={HabitsList}/>
+        <Stack.Screen name="PROGRESS" component={ProgressScreen}/>
+        <Stack.Screen name="LOGOUT" component={LogoutScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

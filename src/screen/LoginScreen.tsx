@@ -18,6 +18,7 @@ type RootStackParamList = {
   SIGNUP: undefined;
   HOME: undefined;
   ADD_HABITS: undefined;
+  HABITSLIST: undefined;
 };
 
 const LoginScreen: React.FC = () => {
@@ -32,7 +33,7 @@ const LoginScreen: React.FC = () => {
 
       if (storedUser && storedUser.email == email && storedUser.password === password) {
         Alert.alert('Success', 'Logged in successfully');
-        navigation.navigate('ADD_HABITS');
+        navigation.navigate('HABITSLIST');
       } else {
       Alert.alert('Error', 'Invalid email or password');
       }
@@ -48,6 +49,7 @@ const LoginScreen: React.FC = () => {
   const handleHomePage = () => {
     navigation.navigate('HOME');
   };
+
 
   return (
     <View style={styles.container}>
