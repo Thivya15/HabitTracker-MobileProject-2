@@ -20,15 +20,15 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 
 ## 📱 Screenshots
 <p float="left">
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img1.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img2.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img4.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img6.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img9.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img12.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img20.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img21.png?raw=true" alt="image alt" width="300"/>
-<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img22.png?raw=true" alt="image alt" width="300"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img1.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img2.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img4.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img6.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img9.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img12.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img20.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img21.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img22.png?raw=true" alt="image alt" width="200"/>
 </p>
 ---
 
