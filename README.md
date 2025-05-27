@@ -49,7 +49,6 @@ The app strictly follows the design from Figma:
 - ⚛️ React Native CLI
 - 📦 AsyncStorage – for local data persistence
 - 🧠 Zustand or Context API (optional for state management)
-- 🌗 Custom ThemeContext for light/dark mode
 - 🎨 Custom modal, reusable components
 
 
