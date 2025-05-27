@@ -36,7 +36,7 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 
 > Add your screen recording in the repo under `/recordings` or link to an external file (like Google Drive or Loom).
 
-[![Watch Demo]([./recordings/demo-thumbnail.png)](./recordings/habit-tracker-demo.mp4](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/video.mp4))
+[![Watch Demo](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/video.mp4)
 
 Or external link:
 
