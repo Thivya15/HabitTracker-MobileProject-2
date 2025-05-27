@@ -20,7 +20,7 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 
 ## 📱 Screenshots
 
-![image alt](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img1.png | width=100)
+![image alt](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img1.png =250*250)
 
 ---
 
