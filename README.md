@@ -19,16 +19,26 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 ---
 
 ## 📱 Screenshots
-
-![image alt](image_url)
-
+<p float="left">
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img1.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img2.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img4.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img6.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img9.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img12.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img20.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img21.png?raw=true" alt="image alt" width="200"/>
+<img src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/img22.png?raw=true" alt="image alt" width="200"/>
+</p>
 ---
 
-## 🎥 Screen Recording
+## 🎥 Screen Recording of my project.
 
-> Add your screen recording in the repo under `/recordings` or link to an external file (like Google Drive or Loom).
+<video width="320" height="240" controls>
+  <source src="https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/demo.mp4?raw=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-[![Watch Demo](./recordings/demo-thumbnail.png)](./recordings/habit-tracker-demo.mp4)
 
 Or external link:
 
