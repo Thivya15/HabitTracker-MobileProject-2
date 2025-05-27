@@ -34,10 +34,13 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 
 ## 🎥 Screen Recording of my project.
 
-[![Watch Demo](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/template/template.png?raw=true)](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/video.mp4?raw=true)
+[![Watch Demo](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/video.mp4?raw=true)
 
+---
+## Figma Design
 
-
+The app strictly follows the design from Figma:
+[View Figma Design]([https://www.figma.com/design/0voUh3g2fDdGMbKNibqygj/To-Do-List--Community-?t=URrfm7Uo7M8LX17l-0](https://www.figma.com/design/9ZA6HmUe4ahk4MCI7omIsG/Mobile-Ass2?node-id=0-1&p=f&t=AsB8sJwF1PKZfMJ9-0))
 
 ---
 
@@ -48,21 +51,10 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 - 🧠 Zustand or Context API (optional for state management)
 - 🌗 Custom ThemeContext for light/dark mode
 - 🎨 Custom modal, reusable components
-- 📊 (Optional) `react-native-chart-kit` or `react-native-svg-charts` for progress visuals
 
----
+  👤 Author
+-Thivya Mahendran
+-Software Engineering Student at University Of Kelaniya.
 
-## 📂 Folder Structure
 
-```bash
-HabitTracker/
-├── assets/
-├── components/
-├── context/
-├── navigation/
-├── screens/
-├── storage/
-├── utils/
-├── App.tsx
-└── package.json
 
