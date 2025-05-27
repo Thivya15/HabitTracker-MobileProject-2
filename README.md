@@ -34,7 +34,8 @@ A simple yet powerful **Habit Tracker** app built with **React Native CLI** and 
 
 ## 🎥 Screen Recording of my project.
 
-[![Watch Demo](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/template)](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/video.mp4)
+[![Watch Demo](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/template/template.png?raw=true)](https://github.com/Thivya15/HabitTracker-MobileProject-2/blob/main/src/assets/video.mp4?raw=true)
+
 
 
 
